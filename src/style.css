@@ -1,0 +1,131 @@
+.container {
+    width:100%;
+    height:93vh;
+    padding-top: 50px;
+    background-color: rgb(116, 152,225);
+    overflow-y: hidden;
+}
+
+.weather {
+    width: 380px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 50px auto;
+    background: linear-gradient(130deg,rgb(86,86,235),rgb(5,5,199));
+    text-align: center;
+    color: white;
+    overflow-y: hidden;
+
+}
+
+.search {
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+     overflow-y: hidden;
+
+}
+
+.search input{
+    border: none;
+    outline: 0;
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: rgb(222,237,243);
+    color: black;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 12px;
+    overflow-y: hidden;
+
+}
+
+.search button{
+    border: none;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow-y: hidden;
+
+}
+
+.search button img {
+    width: 20px;
+    overflow-y: hidden;
+
+
+}
+
+.winfo .icon{
+    margin-top: 20px;
+    width: 170px;
+    overflow-y: hidden;
+
+
+}
+
+.winfo h1{
+    font-size: 70px;
+    font-weight: 500;
+    margin-top: 5px;
+    overflow-y: hidden;
+
+}
+
+.winfo h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -40px;
+    overflow-y: hidden;
+
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 50px;
+    overflow-y: hidden;
+
+    
+}
+
+.details .col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-left: 40px;
+    overflow-y: hidden;
+
+}
+
+.details .col img{
+    width: 45px;
+    margin-right: 10px;
+    overflow-y: hidden;
+
+}
+
+.humidity, .wind{
+    font-size: 27px;
+    overflow-y: hidden;
+
+    
+}
+
+.humidity p, .wind p{
+    margin: 0px;
+    overflow-y: hidden;
+
+}
+
+.error{
+    color: rgb(221, 195, 195);
+    text-align: center;
+    margin-right: 10px;
+    overflow-y: hidden;
+
+}
